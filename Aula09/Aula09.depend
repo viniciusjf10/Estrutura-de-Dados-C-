@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1558998765 source:c:\users\vinicius\desktop\aula09\main.cpp
+	<iostream>
+	"PilhaEncad.h"
+	"FilaEncad.h"
+
+1558996840 c:\users\vinicius\desktop\aula09\pilhaencad.h
+	"No.h"
+
+1528122242 c:\users\vinicius\desktop\aula09\no.h
+
+1558996378 c:\users\vinicius\desktop\aula09\filaencad.h
+	"No.h"
+
+1558998054 source:c:\users\vinicius\desktop\aula09\pilhaencad.cpp
+	<iostream>
+	<cstdlib>
+	"PilhaEncad.h"
+
+1558997150 source:c:\users\vinicius\desktop\aula09\filaencad.cpp
+	<iostream>
+	<cstdlib>
+	"FilaEncad.h"
+
+1528299634 source:c:\users\vinicius\desktop\ufjf\aula09\filaencad.cpp
+	<iostream>
+	<cstdlib>
+	"FilaEncad.h"
+
+1528299700 c:\users\vinicius\desktop\ufjf\aula09\filaencad.h
+	"No.h"
+
+1528122242 c:\users\vinicius\desktop\ufjf\aula09\no.h
+
+1528124511 source:c:\users\vinicius\desktop\ufjf\aula09\main.cpp
+	<iostream>
+	"PilhaEncad.h"
+	"FilaEncad.h"
+
+1528122263 c:\users\vinicius\desktop\ufjf\aula09\pilhaencad.h
+	"No.h"
+
+1528122362 source:c:\users\vinicius\desktop\ufjf\aula09\pilhaencad.cpp
+	<iostream>
+	<cstdlib>
+	"PilhaEncad.h"
+

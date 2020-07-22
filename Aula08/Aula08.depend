@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1569865651 source:c:\users\vinicius\desktop\aula08\listadupla.cpp
+	<iostream>
+	<cstdlib>
+	"ListaDupla.h"
+
+1569867381 c:\users\vinicius\desktop\aula08\listadupla.h
+	"NoDuplo.h"
+
+1526870650 c:\users\vinicius\desktop\aula08\noduplo.h
+
+1569867336 source:c:\users\vinicius\desktop\aula08\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"ListaDupla.h"
+
