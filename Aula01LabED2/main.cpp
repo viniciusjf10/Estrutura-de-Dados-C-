@@ -18,6 +18,26 @@ void divisao(int num, int div, int *q, int *r)
     *r=a%b;
 }
 
+bool func(int tam, int vet[], int *par,int *impar, int *negativos)
+{
+    for(int i=0;i<tam;i++)
+    {
+        if(vet[i]%2==0)
+            *par=*par++;
+        if(vet[i]%2!=0)
+            *impar=*impar++;
+        if(vet[i]<0)
+            *negativos=*negativos++;
+    }
+    cout<<*negativos<<endl;
+    cout<<*par<<endl;
+    cout<<*impar<<endl;
+    if(*negativos>0)
+        return *negativos;
+    else
+        return 0;
+}
+
 int main()
 {
     //Exercicio 01
@@ -46,14 +66,29 @@ int main()
     //Exercicio 03
 
     int num,div;
-    cout<<("Digite o valor do numerador:")<<endl;
+    cout<<("Digite o valor do numerador:");
     cin>>num;
-    cout<<("Digite o valor do divisor:")<<endl;
+    cout<<("Digite o valor do divisor:");
     cin>>div;
     int r;
     int q;
     divisao(num,div,&q,&r);
     cout<<("O valor do quociente e:")<<q<<("e o resto e: ")<<r<<endl;
+
+    //Exercicio 04
+
+    int vet[5]={-1,2,3,4,5};
+    int par=0 ;
+    int impar=0 ;
+    int negativos=0;
+    x=func(5,vet,&par,&impar,&negativos);
+    cout<<x;
+
+
+
+
+
+
     return 0;
 
 }
