@@ -32,19 +32,8 @@ int main()
     int b;
     a=6;
     b=5;
-    troca(a,b);
-    cout<<"O valor de a eh: "<<*a<<" e o valor de b eh: "<<*b<<endl;
-
-
-
-
-
-
-
-
-
-
-
+    troca(&a,&b);
+    cout<<"O valor de a eh: "<<a<<" e o valor de b eh: "<<b<<endl;
     return 0;
 
 }
