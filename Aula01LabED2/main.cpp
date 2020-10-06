@@ -10,6 +10,14 @@ void troca(int *a, int *b)
     *b=aux;
 }
 
+void divisao(int num, int div, int *q, int *r)
+{
+    int a=num;
+    int b=div;
+    *q=a/b;
+    *r=a%b;
+}
+
 int main()
 {
     //Exercicio 01
@@ -34,6 +42,18 @@ int main()
     b=5;
     troca(&a,&b);
     cout<<"O valor de a eh: "<<a<<" e o valor de b eh: "<<b<<endl;
+
+    //Exercicio 03
+
+    int num,div;
+    cout<<("Digite o valor do numerador:")<<endl;
+    cin>>num;
+    cout<<("Digite o valor do divisor:")<<endl;
+    cin>>div;
+    int r;
+    int q;
+    divisao(num,div,&q,&r);
+    cout<<("O valor do quociente e:")<<q<<("e o resto e: ")<<r<<endl;
     return 0;
 
 }
