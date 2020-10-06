@@ -20,22 +20,21 @@ void divisao(int num, int div, int *q, int *r)
 
 bool func(int tam, int vet[], int *par,int *impar, int *negativos)
 {
+
     for(int i=0;i<tam;i++)
     {
         if(vet[i]%2==0)
-            *par=*par++;
+            *par=*par+1;
         if(vet[i]%2!=0)
-            *impar=*impar++;
+            *impar=*impar+1;
         if(vet[i]<0)
-            *negativos=*negativos++;
+            *negativos=*negativos+1;
     }
-    cout<<*negativos<<endl;
-    cout<<*par<<endl;
-    cout<<*impar<<endl;
+
     if(*negativos>0)
-        return *negativos;
+        return true;
     else
-        return 0;
+        return false;
 }
 
 int main()
@@ -77,13 +76,15 @@ int main()
 
     //Exercicio 04
 
-    int vet[5]={-1,2,3,4,5};
+    int vet[5]={1,2,3,4,5};
     int par=0 ;
     int impar=0 ;
     int negativos=0;
     x=func(5,vet,&par,&impar,&negativos);
-    cout<<x;
-
+    if (x!=0)
+        cout<<("True")<<endl;
+    else
+        cout<<("False")<<endl;
 
 
 
