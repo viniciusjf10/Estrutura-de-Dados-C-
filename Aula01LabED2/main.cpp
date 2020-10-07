@@ -86,10 +86,24 @@ int main()
     else
         cout<<("False")<<endl;
 
+    //Exercicio 5
 
-
-
-
+    int n;
+    cout<<"Digite o valor n, que representa o numero de posições do vetor"<<endl;
+    cin>>n;
+    int *pt_n = new int [n];
+    for(int i=0;i<n;i++)
+    {
+        cout<<"Digite o valor da posiçao "<<i<<" do vetor: "<<endl;
+        cin>>pt_n[i];
+    }
+    int total=0;
+    for(int i=0;i<n;i++)
+    {
+        total=total+pt_n[i];
+    }
+    cout<<"A media dos valores do vetor eh: "<<(total/n)<<endl;
+    delete [] pt_n;
     return 0;
 
 }
