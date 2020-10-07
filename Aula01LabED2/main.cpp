@@ -37,6 +37,20 @@ bool func(int tam, int vet[], int *par,int *impar, int *negativos)
         return false;
 }
 
+float prodEscalar(int n, float x[], float y[])
+{
+    float pv=0;
+    cout<<"valor de n: "<<n<<endl;
+    for (int i=0;i<n;i++){
+        cout<<x[i]<<endl;}
+    for(int i=0;i<n;i++)
+    {
+        pv=pv+ (x[i]*y[i]);
+    }
+    cout<<"valor de pv:"<<pv<<endl;
+    return pv;
+}
+
 int main()
 {
     //Exercicio 01
@@ -104,6 +118,28 @@ int main()
     }
     cout<<"A media dos valores do vetor eh: "<<(total/n)<<endl;
     delete [] pt_n;
+
+
+    //Exercicio 6
+    int v;
+    cout<<"Digite o valor n, que representa o numero de posições do vetor"<<endl;
+    cin>>v;
+    int v1=v;
+    float *pt_x = new float [v];
+    float *pt_y = new float [v];
+    for(int i=0;i<v;i++)
+    {
+        cout<<"Digite o valor da posiçao "<<i<<" do vetor x: "<<endl;
+        cin>>pt_x[v];
+    }
+    v=v1;
+    for(int i=0;i<v;i++)
+    {
+        cout<<"Digite o valor da posiçao "<<i<<" do vetor y: "<<endl;
+        cin>>pt_y[v];
+    }
+    float g=prodEscalar(v,pt_x,pt_y);
+    \
     return 0;
 
 }
