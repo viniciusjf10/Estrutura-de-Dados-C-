@@ -41,12 +41,15 @@ float prodEscalar(int n, float x[], float y[])
 {
     float pv=0;
     float *pt_x=x;
+    float *pt_y=y;
     cout<<"valor de n: "<<n<<endl;
-    for (int i=0;i<n;i++){
-        cout<<pt_x[i]<<endl;}
     for(int i=0;i<n;i++)
     {
-        pv=pv+ (x[i]*y[i]);
+        cout<<pt_x[i];
+    }
+    for(int i=0;i<n;i++)
+    {
+        pv=pv+ (pt_x[i]*pt_y[i]);
     }
     cout<<"valor de pv:"<<pv<<endl;
     return pv;
