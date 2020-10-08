@@ -128,19 +128,19 @@ int main()
     int v;
     cout<<"Digite o valor n, que representa o numero de posições do vetor"<<endl;
     cin>>v;
-    float *pt_x = new float [v];
-    float *pt_y = new float [v];
+    float *pt_z = new float [v];
+    float *pt_q = new float [v];
     for(int i=0;i<v;i++)
     {
         cout<<"Digite o valor da posiçao "<<i<<" do vetor x: "<<endl;
-        cin>>pt_x[v];
+        cin>>pt_z[v];
     }
     for(int i=0;i<v;i++)
     {
         cout<<"Digite o valor da posiçao "<<i<<" do vetor y: "<<endl;
-        cin>>pt_y[v];
+        cin>>pt_q[v];
     }
-    float *g=prodEscalar(v,pt_x,pt_y);
+    float g=prodEscalar(v,pt_z,pt_q);
 
     return 0;
 
