@@ -40,9 +40,10 @@ bool func(int tam, int vet[], int *par,int *impar, int *negativos)
 float prodEscalar(int n, float x[], float y[])
 {
     float pv=0;
+    float *pt_x=x;
     cout<<"valor de n: "<<n<<endl;
     for (int i=0;i<n;i++){
-        cout<<x[i]<<endl;}
+        cout<<pt_x[i]<<endl;}
     for(int i=0;i<n;i++)
     {
         pv=pv+ (x[i]*y[i]);
@@ -139,7 +140,7 @@ int main()
         cin>>pt_y[v];
     }
     float g=prodEscalar(v,pt_x,pt_y);
-    \
+
     return 0;
 
 }
