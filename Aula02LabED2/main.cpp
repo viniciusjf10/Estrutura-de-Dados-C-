@@ -31,13 +31,9 @@ int imprimeDecrescente(int n)
 
 float soma(int n, float vet[])
 {
-    float soma=0;
-    for(int i=0;i<n;i++)
-    {
-        soma=soma+vet[i];
-    }
-    return soma;
+
 }
+
 int main()
 {
     // Exercicio 1
