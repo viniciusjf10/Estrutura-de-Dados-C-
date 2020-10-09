@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
-1602193092 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula02labed2\main.cpp
+1602275836 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula02labed2\main.cpp
 	<iostream>
+	<stdlib.h>
 

@@ -31,6 +31,17 @@ int imprimeDecrescente(int n)
 
 float soma(int n, float vet[])
 {
+    if(n==0)
+        return 0;
+    else
+    return vet[n-1] + soma((n-1),vet);
+}
+
+float menor(int n, float vet2[])
+{
+    if(vet2[n-1]< menor(n-2,vet2))
+        return vet2[n-1];
+
 
 }
 
@@ -70,6 +81,18 @@ int main()
         cout<<"Digite o valor da posiçao "<<i<<" do vetor: "<<endl;
         cin>>pt_v[i];
     }
-    cout<<"O valor da some e: "<<soma(5,pt_v)<<endl;
+    float o=soma(5,pt_v);
+    cout<<"O valor da some e: "<<o<<endl;
+
+    //Exercicio5
+    float *pt_y= new float [5];
+    for(int i=0;i<5;i++)
+    {
+        cout<<"Digite o valor da posiçao "<<i<<" do vetor: "<<endl;
+        cin>>pt_y[i];
+    }
+
+    float y= menor(5,pt_y);
+    cout<<"O menor valor do vetor e: "<<y<<endl;
 
 }
