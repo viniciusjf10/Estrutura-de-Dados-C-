@@ -39,11 +39,12 @@ float soma(int n, float vet[])
 
 float menor(int n, float vet2[])
 {
-    if(vet2[n-1]< menor(n-2,vet2))
-        return vet2[n-1];
+    if(n==-1)
+        return vet2[0];
+    if (vet2[n-1]<vet2[n-2])
+        return menor(n-1,vet2);
     else
-        return n;
-
+        return menor(n-4,vet2);
 }
 
 int main()
