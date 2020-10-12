@@ -18,9 +18,11 @@ Aluno::~Aluno()
 
 void Aluno::leNotas()
 {
-    // Implemente sua solucao aqui
+    for(int i=0;i<7;i++){
+    cout<<"Digite a nota "<<i<<" do aluno."<<endl;
+    cin>>notas[i];
 }
-
+}
 double Aluno::calculaMedia()
 {
     // Implemente sua solucao aqui
