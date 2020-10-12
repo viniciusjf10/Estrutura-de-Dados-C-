@@ -54,7 +54,10 @@ int main()
     // EXERCICIO 7
     // ------------------------------------------------------------------------
 
-    //Prova p(3);
+    Prova p(3);
+    p.leNotas();
+    p.calculaNotaFinal();
+    cout<<"A nota final da prova eh: "<<p.obtemNotaFinal()<<endl;
 
 
     return 0;
