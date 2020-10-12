@@ -19,8 +19,11 @@ class Aluno
         // exercicio 1
         void leNotas();
         double calculaMedia();
-        string getNome();
-        void setNome(string n);
+        //exercicios 2
+        void setIdade(int i);
+        int getIdade();
+        void setMatricula(string mat);
+        string getMatricula();
 
         // exercicio 5
         // implemente aqui

@@ -23,12 +23,20 @@ int main()
     // EXERCICIO 3
     // ------------------------------------------------------------------------
 
-    cout<<"Digite o nome do aluno: "<<endl;
-    string n;
-    cin>>n;
-    a.setNome(n);
+    cout<<"Digite a idade do aluno: "<<endl;
+    int i;
+    cin>>i;
+    a.setIdade(i);
 
+    cout<<"Digite a matricula do aluno: "<<endl;
+    string mat;
+    cin>>mat;
+    a.setMatricula(mat);
 
+    cout<<"Todos os dados do aluno são: "<<endl;
+    cout<<"Nome: "<<a.getNome()<<endl;
+    cout<<"Idade: "<<a.getIdade()<<endl;
+    cout<<"Matricula: "<<a.getMatricula()<<endl;
     // ------------------------------------------------------------------------
     // EXERCICIO 5
     // ------------------------------------------------------------------------
