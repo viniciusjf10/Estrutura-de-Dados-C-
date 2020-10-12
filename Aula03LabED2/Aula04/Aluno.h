@@ -24,7 +24,7 @@ class Aluno
         int getIdade();
         void setMatricula(string mat);
         string getMatricula();
-
+        void ehPres();
         // exercicio 5
         // implemente aqui
 
@@ -32,7 +32,7 @@ class Aluno
         int idade;
         string nome, matricula;
         double notas[7];
-
+        bool freq[7];
         // exercicio 3
         // implemente aqui
 

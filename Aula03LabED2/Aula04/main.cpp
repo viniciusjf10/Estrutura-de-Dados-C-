@@ -37,6 +37,7 @@ int main()
     cout<<"Nome: "<<a.getNome()<<endl;
     cout<<"Idade: "<<a.getIdade()<<endl;
     cout<<"Matricula: "<<a.getMatricula()<<endl;
+    a.ehPres();
     // ------------------------------------------------------------------------
     // EXERCICIO 5
     // ------------------------------------------------------------------------

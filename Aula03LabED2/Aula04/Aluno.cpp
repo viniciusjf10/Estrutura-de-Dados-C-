@@ -71,7 +71,13 @@ string Aluno::getMatricula()
 
 
 // ----------------------------------------------------------------------------
-// Exercicio 3
+void Aluno::ehPres()
+{
+    for(int i=0;i<7;i++){
+    cout<<"Digite a presenca do aluno na aula "<<i<<endl;
+    cin>>freq[i];
+}
+}
 // ----------------------------------------------------------------------------
 
 // Implemente aqui sua solucao
