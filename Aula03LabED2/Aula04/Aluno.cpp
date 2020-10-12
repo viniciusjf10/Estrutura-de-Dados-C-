@@ -25,8 +25,12 @@ void Aluno::leNotas()
 }
 double Aluno::calculaMedia()
 {
-    // Implemente sua solucao aqui
-    return 0;
+    int media=0;
+    for (int i=0;i<7;i++)
+    {
+        media=media+notas[i];
+    }
+    return media/7;
 }
 
 // ----------------------------------------------------------------------------

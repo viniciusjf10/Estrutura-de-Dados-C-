@@ -19,9 +19,8 @@ class Aluno
         // exercicio 1
         void leNotas();
         double calculaMedia();
-
-        // exercicio 2
-        // implemente aqui
+        string getNome();
+        void setNome(string n);
 
         // exercicio 5
         // implemente aqui
