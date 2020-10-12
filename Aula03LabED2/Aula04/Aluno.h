@@ -25,7 +25,7 @@ class Aluno
         void setMatricula(string mat);
         string getMatricula();
         void ehPres();
-        // exercicio 5
+        void alunoDetalhado();
         // implemente aqui
 
     private:

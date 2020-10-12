@@ -78,6 +78,25 @@ void Aluno::ehPres()
     cin>>freq[i];
 }
 }
+
+void Aluno::alunoDetalhado()
+{
+    int n=0;
+    int p=0;
+    for (int i =0;i<7;i++)
+    {
+        n=n+notas[i];
+        p=p+freq[i];
+    }
+    cout<<"Nome do aluno: "<<getNome()<<endl;
+    cout<<"Idade do aluno: "<<getIdade()<<endl;
+    cout<<"Matricula do aluno: "<<getMatricula()<<endl;
+    if(n>=60 && (p>=4,2))
+        cout<<"Aluno aprovado"<<endl;
+    else
+        cout<<"Aluno reprovado"<<endl;
+
+}
 // ----------------------------------------------------------------------------
 
 // Implemente aqui sua solucao
