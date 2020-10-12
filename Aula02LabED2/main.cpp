@@ -44,7 +44,7 @@ float menor(int n, float vet2[])
     if (vet2[n-1]<vet2[n-2])
         return menor(n-1,vet2);
     else
-        return menor(n-4,vet2);
+        return menor(n-2,vet2);
 }
 
 int main()
