@@ -9,10 +9,11 @@ class Prova
 {
     public:
         Prova(int nq);
+        ~Prova();
         void leNotas();
         void calculaNotaFinal();
         double obtemNotaFinal();
-
+        void leVal();
     private:
         int n;
         double notaFinal;
