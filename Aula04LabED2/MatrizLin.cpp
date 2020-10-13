@@ -53,10 +53,10 @@ void MatrizLin::imprime()
     for(int i=0;i<nl;i++){
 
             for(int j=0;j<nc;j++){
-            if(j==nc-1)
-                cout<<endl;
-                    float val = get(i, j);
-                    cout << val << ",";
+                    if(j+1>=nc)
+                    cout<<endl;
+                float val = get(i, j);
+                cout << val << ",";
             }
     }
     cout<<endl;
