@@ -15,6 +15,7 @@ class MatrizLin
         float get(int i, int j);
         void imprime();
         bool ehSimetrico();
+        int maiorValor();
 };
 
 #endif // MatrizLin0_H_INCLUDED

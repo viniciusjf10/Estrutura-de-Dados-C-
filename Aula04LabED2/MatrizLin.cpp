@@ -77,3 +77,19 @@ bool MatrizLin::ehSimetrico()
     }
     return true;
 }
+
+int MatrizLin::maiorValor()
+{
+    int maior = get(0,0);
+    for(int i=0;i<nl;i++)
+    {
+        for(int j=0;j<nc;j++)
+        {
+            if(maior<= get(i,j))
+            {
+                maior = get(i,j);
+            }
+        }
+    }
+    return maior;
+}

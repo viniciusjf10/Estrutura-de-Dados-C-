@@ -11,8 +11,8 @@ int main()
     for(int i = 0; i < m; i++)
         for(int j = 0; j < n; j++)
         {
-            //float val = j + n*i; /// sequencia numerica no intervalo 0..(m*n-1)
-            mat.set(i, j, 8);
+            float val = j + n*i; /// sequencia numerica no intervalo 0..(m*n-1)
+            mat.set(i, j, val);
         }
 
     for(int i = 0; i < m; i++)
@@ -26,5 +26,6 @@ int main()
     }
     mat.imprime();
     cout<<"A matriz eh simetrica. A informaçao eh verdadeira ou falsa? "<<mat.ehSimetrico()<<endl;
+    cout<<"O maior valor da matriz eh: "<<mat.maiorValor()<<endl;
     return 0;
 }
