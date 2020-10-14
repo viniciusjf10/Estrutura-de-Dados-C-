@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1602631859 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula04labed2\main.cpp
+1602637562 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula04labed2\main.cpp
 	<iostream>
 	"MatrizLin.h"
 
-1602631887 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula04labed2\matrizlin.h
+1602637562 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula04labed2\matrizlin.h
 
-1602632224 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula04labed2\matrizlin.cpp
+1602637576 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula04labed2\matrizlin.cpp
 	<iostream>
 	<cstdlib>
 	"MatrizLin.h"

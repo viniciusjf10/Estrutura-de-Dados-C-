@@ -60,3 +60,20 @@ void MatrizLin::imprime()
     }
     cout<<endl;
 }
+
+bool MatrizLin::ehSimetrico()
+{
+    if(nl!=nc)
+        return false;
+    for(int i=0;i<nl;i++)
+    {
+        for(int j=0;j<nc;j++)
+        {
+            if( get(i,j) != get(j,i))
+            {
+                return false;
+            }
+        }
+    }
+    return true;
+}
