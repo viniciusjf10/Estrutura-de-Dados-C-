@@ -105,6 +105,7 @@ MatrizLin* MatrizLin::transposta()    {
                 trans[k] = val;
             float val = vet.get(i,j)) ;
             set(j, i, trans [i]);
+            return 0;
         }
     }
 }
