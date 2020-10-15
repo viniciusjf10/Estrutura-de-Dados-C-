@@ -93,3 +93,16 @@ int MatrizLin::maiorValor()
     }
     return maior;
 }
+
+MatrizLin* MatrizLin::transposta()    {
+{
+    trans = new float[nl*nc];
+    for(int i=0;i<nl;i++)
+    {
+        for(int j=0;j<nc;j++)
+        {
+            float val = vet.get(i,j)) ;
+            set(j, i, vet[i]);
+        }
+    }
+}

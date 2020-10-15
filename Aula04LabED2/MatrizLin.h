@@ -6,6 +6,7 @@ class MatrizLin
     private:
         int nl, nc; // numero de is e js
         float *vet; // vetor de tamanho nl*nc
+        float *trans;
         int detInd(int i, int j);
 
     public:
@@ -16,6 +17,7 @@ class MatrizLin
         void imprime();
         bool ehSimetrico();
         int maiorValor();
+        MatrizLin *transposta();
 };
 
 #endif // MatrizLin0_H_INCLUDED
