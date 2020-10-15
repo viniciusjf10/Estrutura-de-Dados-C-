@@ -102,7 +102,7 @@ MatrizLin* MatrizLin::transposta()    {
         for(int j=0;j<nc;j++)
         {
             float val = vet.get(i,j)) ;
-            set(j, i, vet[i]);
+            set(j, i, trans [i]);
         }
     }
 }
