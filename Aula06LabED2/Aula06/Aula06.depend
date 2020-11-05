@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1604611262 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula06labed2\aula06\main.cpp
+	<iostream>
+	"Ponto.h"
+	"ListaCont.h"
+
+1525656607 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula06labed2\aula06\ponto.h
+	<cmath>
+
+1604612725 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula06labed2\aula06\listacont.h
+	"Ponto.h"
+
+1604614159 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula06labed2\aula06\listacont.cpp
+	<iostream>
+	<cstdlib>
+	"Ponto.h"
+	"ListaCont.h"
+
