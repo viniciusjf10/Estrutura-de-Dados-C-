@@ -203,3 +203,20 @@ void ListaEncad::concatena(ListaEncad *l2)
     }
 }
 
+ListaEncad* ListaEncad::partir(int x)
+{
+    No *p=primeiro;
+    int contano=0;
+    while(contano<x)
+    {
+        contano=contano+1;
+        p=p->getProx();
+    }
+    ListaEncad *l3;
+    No *g= (p->getProx);
+    while(p!=NULL)
+    {
+
+    }
+}
+
