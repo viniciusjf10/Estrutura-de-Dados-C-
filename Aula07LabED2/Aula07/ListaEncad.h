@@ -17,6 +17,7 @@ public:
     void imprime();
     int numNos();
     int buscaMaior(int val);
+    void limpar();
 
 private:
     No *primeiro;  /// ponteiro para o primeiro No da lista

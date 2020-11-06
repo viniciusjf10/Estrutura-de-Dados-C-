@@ -169,4 +169,14 @@ int ListaEncad::buscaMaior(int val)
     }
     return nos;
 }
+void ListaEncad::limpar()
+{
+    No *p=primeiro;
+    while(p!=NULL)
+    {
+        p->setInfo(NULL);
+        p=p->getProx();
+    }
+    cout<<"Lista limpa"<<endl;
+}
 

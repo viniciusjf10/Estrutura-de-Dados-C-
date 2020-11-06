@@ -36,6 +36,7 @@ int main()
     l.imprime();
     cout<<"O numero de nos da lista eh: "<<l.numNos()<<endl;
     cout<<"O indice que contem o valor maior que o valor passado como parametro eh: "<<l.buscaMaior(25)<<endl;
+    l.limpar();
     return 0;
 }
 
