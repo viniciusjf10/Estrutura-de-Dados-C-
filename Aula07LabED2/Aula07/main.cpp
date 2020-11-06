@@ -34,6 +34,7 @@ int main()
     else
         cout << "Nao" << endl;
     l.imprime();
+    cout<<"O numero de nos da lista eh: "<<l.numNos()<<endl;
     return 0;
 }
 

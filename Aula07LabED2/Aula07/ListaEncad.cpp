@@ -145,3 +145,15 @@ void ListaEncad::imprime()
     }
     cout<<endl;
 }
+
+int ListaEncad::numNos()
+{
+    No *p=primeiro;
+    int nos=0;
+    while(p!=NULL)
+    {
+        nos=nos+1;
+        p=p->getProx();
+    }
+    return nos;
+}
