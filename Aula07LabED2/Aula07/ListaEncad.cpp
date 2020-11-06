@@ -157,3 +157,16 @@ int ListaEncad::numNos()
     }
     return nos;
 }
+
+int ListaEncad::buscaMaior(int val)
+{
+    No *p=primeiro;
+    int nos =0;
+    while((p->getInfo())<val)
+    {
+        nos=nos+1;
+        p=p->getProx();
+    }
+    return nos;
+}
+

@@ -1,12 +1,17 @@
 # depslib dependency file v1.0
-1604630176 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula07labed2\aula07\main.cpp
+1604630339 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula07labed2\aula07\main.cpp
 	<iostream>
 	<cstdlib>
 	<ctime>
 	"ListaEncad.h"
 
-1604630176 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula07labed2\aula07\listaencad.h
+1604630355 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula07labed2\aula07\listaencad.h
 	"No.h"
 
 1526334908 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula07labed2\aula07\no.h
+
+1604630376 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula07labed2\aula07\listaencad.cpp
+	<iostream>
+	<cstdlib>
+	"ListaEncad.h"
 
