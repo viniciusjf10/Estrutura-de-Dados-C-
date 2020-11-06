@@ -192,3 +192,14 @@ float ListaEncad::calculaMedia()
     return total/numNos();
 }
 
+void ListaEncad::concatena(ListaEncad *l2)
+{
+    No *p=ultimo;
+    No *q=primeiroq;
+    while(q->getProx() != NULL)
+    {
+        p->setInfo(q->getInfo());
+        p=p->getProx();
+    }
+}
+

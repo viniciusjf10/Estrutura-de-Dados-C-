@@ -19,9 +19,11 @@ public:
     int buscaMaior(int val);
     void limpar();
     float calculaMedia();
+    void concatena(ListaEncad *l2);
 private:
     No *primeiro;  /// ponteiro para o primeiro No da lista
     No *ultimo;    /// ponteiro para o ultimo No da lista
+    No *primeiroq;
     int n;         /// numero de nos na lista
 };
 #endif

@@ -38,6 +38,16 @@ int main()
     cout<<"O indice que contem o valor maior que o valor passado como parametro eh: "<<l.buscaMaior(25)<<endl;
     //l.limpar();
     cout<<"O valor da media dos valores eh: "<<l.calculaMedia()<<endl;
+
+    ListaEncad l2;
+    cout << "Inserindo valores: ";
+    for(int i = 1; i <= NumNos; i++)
+    {
+        int val =  numAleatorio(0, 50); /// cria um valor aleatório entre 0 e 50
+        cout << val << ", ";
+        l2.insereInicio(val);
+    }
+    l.imprime();
     return 0;
 }
 
