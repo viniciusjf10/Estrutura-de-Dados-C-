@@ -18,7 +18,7 @@ public:
     int numNos();
     int buscaMaior(int val);
     void limpar();
-
+    float calculaMedia();
 private:
     No *primeiro;  /// ponteiro para o primeiro No da lista
     No *ultimo;    /// ponteiro para o ultimo No da lista

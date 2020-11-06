@@ -180,3 +180,15 @@ void ListaEncad::limpar()
     cout<<"Lista limpa"<<endl;
 }
 
+float ListaEncad::calculaMedia()
+{
+    No *p=primeiro;
+    int total=0;
+    while(p!=NULL)
+    {
+        total=total+p->getInfo();
+        p=p->getProx();
+    }
+    return total/numNos();
+}
+
