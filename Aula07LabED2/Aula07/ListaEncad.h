@@ -14,6 +14,7 @@ public:
     void insereFinal(int val);  /// insere um novo No contendo val no final da lista
     void removeInicio();        /// remove o primeiro No da lista
     void removeFinal();         /// remove o último No da lista
+    void imprime();
 
 private:
     No *primeiro;  /// ponteiro para o primeiro No da lista

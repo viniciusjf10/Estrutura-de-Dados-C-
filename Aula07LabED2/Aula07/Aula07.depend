@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1604630003 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula07labed2\aula07\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"ListaEncad.h"
+
+1604630003 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula07labed2\aula07\listaencad.h
+	"No.h"
+
+1526334908 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula07labed2\aula07\no.h
+

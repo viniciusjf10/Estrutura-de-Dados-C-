@@ -33,7 +33,7 @@ int main()
         cout << "Sim" << endl;
     else
         cout << "Nao" << endl;
-
+    l.imprime();
     return 0;
-};
+}
 

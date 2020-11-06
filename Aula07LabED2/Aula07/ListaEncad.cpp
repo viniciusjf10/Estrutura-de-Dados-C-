@@ -132,3 +132,16 @@ void ListaEncad::removeFinal()
     else
         cout << "ERRO: lista vazia!" << endl;
 }
+
+void ListaEncad::imprime()
+{
+    No *p;
+    p=primeiro;
+    while(p!=NULL)
+    {
+        cout<<p->getInfo();
+        cout<<", ";
+    p=p->getProx();
+    }
+    cout<<endl;
+}
