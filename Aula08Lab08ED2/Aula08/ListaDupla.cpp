@@ -112,7 +112,7 @@ void ListaDupla::insereFinal(int val)
 void ListaDupla::removeFinal()
 {
     NoDuplo *p=ultimo;
-    p->getAnt();
+    p=p->getAnt();
     p->setProx(NULL);
     n=n-1;
 }
