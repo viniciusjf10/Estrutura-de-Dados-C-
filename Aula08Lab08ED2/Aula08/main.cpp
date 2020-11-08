@@ -34,7 +34,17 @@ int main()
         cout << "Sim" << endl;
     else
         cout << "Nao" << endl;
-
+    l.imprime();
+    l.imprimeReverso();
+    cout<<"Inserindo no final o numero 5"<<endl;
+    l.insereFinal(5);
+    l.imprime();
+    cout<<"Inserindo no final o numero 8"<<endl;
+    l.insereFinal(8);
+    l.imprime();
+    l.removeFinal();
+    cout<<"Removendo no final da lista"<<endl;
+    l.imprime();
     return 0;
 };
 

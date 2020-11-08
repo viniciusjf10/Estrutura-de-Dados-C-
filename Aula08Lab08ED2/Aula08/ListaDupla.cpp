@@ -96,3 +96,47 @@ void ListaDupla::removeInicio()
 	else
         cout << "ERRO: lista vazia" << endl;
 }
+
+void ListaDupla::insereFinal(int val)
+{
+    NoDuplo *p= new NoDuplo();
+    ultimo ->setProx(p);
+    p->setInfo(val);
+    p->setAnt(ultimo);
+    p->setProx(NULL);
+    ultimo =p;
+    n=n+1;
+
+}
+
+void ListaDupla::removeFinal()
+{
+    NoDuplo *p=ultimo;
+    p->getAnt();
+    p->setProx(NULL);
+    n=n-1;
+}
+
+void ListaDupla::imprime()
+{
+    NoDuplo *p=primeiro;
+    cout<<"Imprimindo a lista na ordem correta: "<<endl;
+    while (p!=NULL)
+    {
+        cout<<p->getInfo()<<",";
+        p=p->getProx();
+    }
+    cout<<endl;
+}
+
+void ListaDupla::imprimeReverso()
+{
+    NoDuplo *p=ultimo;
+    cout<<"Imprimendo lista na ordem inversa"<<endl;
+    while(p!=NULL)
+    {
+        cout<<p->getInfo()<<",";
+        p=p->getAnt();
+    }
+    cout<<endl;
+}

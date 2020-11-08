@@ -14,6 +14,8 @@ public:
     void removeInicio();
     void insereFinal(int val); /// exercicio
     void removeFinal();        /// exercicio
+    void imprime();
+    void imprimeReverso();
 private:
     NoDuplo *primeiro;
     NoDuplo *ultimo;
