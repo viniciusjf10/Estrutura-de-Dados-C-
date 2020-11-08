@@ -114,6 +114,7 @@ void ListaDupla::removeFinal()
     NoDuplo *p=ultimo;
     p=p->getAnt();
     p->setProx(NULL);
+    ultimo=p;
     n=n-1;
 }
 

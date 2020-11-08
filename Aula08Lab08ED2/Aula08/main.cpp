@@ -45,6 +45,9 @@ int main()
     l.removeFinal();
     cout<<"Removendo no final da lista"<<endl;
     l.imprime();
+    l.removeFinal();
+    cout<<"Removendo no final da lista"<<endl;
+    l.imprime();
     return 0;
 };
 
