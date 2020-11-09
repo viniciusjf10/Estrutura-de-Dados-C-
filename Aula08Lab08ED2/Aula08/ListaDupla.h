@@ -16,9 +16,11 @@ public:
     void removeFinal();        /// exercicio
     void imprime();
     void imprimeReverso();
+    ListaDupla* concatena(ListaDupla* l2);
 private:
     NoDuplo *primeiro;
     NoDuplo *ultimo;
     int n;
+    NoDuplo *q;
 };
 #endif

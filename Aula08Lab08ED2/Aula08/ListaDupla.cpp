@@ -141,3 +141,11 @@ void ListaDupla::imprimeReverso()
     }
     cout<<endl;
 }
+
+ListaDupla* ListaDupla::concatena(ListaDupla *l2)
+{
+    NoDuplo *p=ultimo;
+    NoDuplo *q=primeiro;
+    p->setProx(q);
+    q->setAnt(p);
+}

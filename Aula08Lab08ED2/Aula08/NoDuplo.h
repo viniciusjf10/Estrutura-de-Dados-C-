@@ -16,5 +16,6 @@ private:
     NoDuplo *ant;  /// ponteiro para anterior
     int info;      /// informacao do no
     NoDuplo *prox; /// ponteiro para proximo
+
 };
 #endif
