@@ -1,15 +1,15 @@
 # depslib dependency file v1.0
-1604947993 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula09lab09ed2\aula09\pilhaencad.cpp
+1604948412 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula09lab09ed2\aula09\pilhaencad.cpp
 	<iostream>
 	<cstdlib>
 	"PilhaEncad.h"
 
-1604947817 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula09lab09ed2\aula09\pilhaencad.h
+1604948456 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula09lab09ed2\aula09\pilhaencad.h
 	"No.h"
 
 1528122242 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula09lab09ed2\aula09\no.h
 
-1604948100 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula09lab09ed2\aula09\main.cpp
+1604948473 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula09lab09ed2\aula09\main.cpp
 	<iostream>
 	"PilhaEncad.h"
 	"FilaEncad.h"
@@ -17,7 +17,7 @@
 1604947993 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula09lab09ed2\aula09\filaencad.h
 	"No.h"
 
-1604948037 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula09lab09ed2\aula09\filaencad.cpp
+1604948263 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\aula09lab09ed2\aula09\filaencad.cpp
 	<iostream>
 	<cstdlib>
 	"FilaEncad.h"

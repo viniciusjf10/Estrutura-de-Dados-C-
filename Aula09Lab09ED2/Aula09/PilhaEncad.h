@@ -8,7 +8,7 @@ class PilhaEncad
 {
 private:
     No *topo;                /// ponteiro p/ o No do topo
-
+    int n;
 public:
     PilhaEncad();
     ~PilhaEncad();
@@ -17,6 +17,7 @@ public:
     int desempilha();        /// elimina No do topo
     bool vazia();            /// verifica se está vazia
     void imprime();
+    int tamanho();
 };
 
 #endif // PILHAENCAD_H_INCLUDED

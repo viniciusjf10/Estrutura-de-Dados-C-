@@ -32,5 +32,6 @@ int main()
     cout<<endl;
     f.imprime();
     cout<<endl;
+    cout<<"O numero de valores na pilha eh: "<<p.tamanho()<<endl;
     return 0;
 }

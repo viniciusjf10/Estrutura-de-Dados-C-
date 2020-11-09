@@ -9,6 +9,7 @@ PilhaEncad::PilhaEncad()
 {
     cout << "Criando PilhaEncad" << endl;
     topo = NULL;
+    n=0;
 }
 
 // destrutor
@@ -21,6 +22,7 @@ PilhaEncad::~PilhaEncad()
         topo = p->getProx();
         delete p;
         p = topo;
+        n=n-1;
     }
 }
 
@@ -30,6 +32,7 @@ void PilhaEncad::empilha(int val)
     p->setInfo(val);
     p->setProx(topo);
     topo = p;
+    n=n+1;
 }
 
 int PilhaEncad::desempilha()
@@ -41,6 +44,7 @@ int PilhaEncad::desempilha()
         topo = p->getProx();
         int val = p->getInfo();
         delete p;
+        n=n-1;
         return val;
     }
     else
@@ -80,3 +84,7 @@ void PilhaEncad::imprime()
     }
 }
 
+int PilhaEncad::tamanho()
+{
+    return n;
+}
