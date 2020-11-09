@@ -74,3 +74,15 @@ int FilaEncad::desenfileira()
         exit(1);
     }
 }
+
+void FilaEncad::imprime()
+{
+    No* p=inicio;
+    cout<<"Imprimindo fila"<<endl;
+    do{
+        cout<<p->getInfo()<<", ";
+        p=p->getProx();
+    }while(p!=fim);
+    cout<<p->getInfo();
+}
+

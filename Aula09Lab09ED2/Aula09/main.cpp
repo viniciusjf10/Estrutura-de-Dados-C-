@@ -27,6 +27,10 @@ int main()
     for(int i = 20; i < 25; i++) f.enfileira(i);
     cout << "Fila apos inserir mais 5 valores" << endl;
     ///f.imprime();
-
+    cout<<endl;
+    p.imprime();
+    cout<<endl;
+    f.imprime();
+    cout<<endl;
     return 0;
 }

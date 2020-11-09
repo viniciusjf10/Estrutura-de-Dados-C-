@@ -68,3 +68,15 @@ bool PilhaEncad::vazia()
     else
         return(false);
 }
+
+void PilhaEncad::imprime()
+{
+    No* p= topo;
+    cout<<"Imprimind pilha"<<endl;
+    while(p!=NULL)
+    {
+        cout<<p->getInfo()<<", ";
+        p=p->getProx();
+    }
+}
+

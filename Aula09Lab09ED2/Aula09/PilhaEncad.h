@@ -16,6 +16,7 @@ public:
     void empilha(int val);   /// insere No no topo
     int desempilha();        /// elimina No do topo
     bool vazia();            /// verifica se está vazia
+    void imprime();
 };
 
 #endif // PILHAENCAD_H_INCLUDED
