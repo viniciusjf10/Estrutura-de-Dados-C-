@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1604958410 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\avaliação2ed2\listacont.cpp
+	<iostream>
+	<cstdlib>
+	"ListaCont.h"
+
+1571015026 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\avaliação2ed2\listacont.h
+
+1604958923 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\avaliação2ed2\listadupla.cpp
+	<iostream>
+	<cstdlib>
+	"ListaDupla.h"
+
+1571015378 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\avaliação2ed2\listadupla.h
+	"NoDuplo.h"
+
+1559260938 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\avaliação2ed2\noduplo.h
+
+1571015650 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\avaliação2ed2\listaencad.cpp
+	<iostream>
+	<cstdlib>
+	"ListaEncad.h"
+
+1570973934 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\avaliação2ed2\listaencad.h
+	"No.h"
+
+1559261250 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\avaliação2ed2\no.h
+
+1571064590 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\avaliação2ed2\pilhaencad.cpp
+	<iostream>
+	<cstdlib>
+	"PilhaEncad.h"
+
+1559261286 c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\avaliação2ed2\pilhaencad.h
+	"No.h"
+
+1604958344 source:c:\users\viniciusere\desktop\ere\ere 1ºperiodo\ed.lab2\avaliação2ed2\main.cpp
+	<iostream>
+	<cstdlib>
+	"PilhaEncad.h"
+	"ListaCont.h"
+	"ListaEncad.h"
+	"ListaDupla.h"
+
